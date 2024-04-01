@@ -1,0 +1,112 @@
+/*ZERANDO A PAG*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*TUDO*/
+body {
+    background-color: #E7E7E7;
+    padding-top: 100px;
+}
+
+/*CABEÇALHO TITULO + IMG*/
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/*DIPLOMA*/
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+/*TITULO CALCULADORA*/
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/*TODA A TABELA*/
+.container {
+    max-width: 960px;
+    height: 100%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*TODO O FORMULARIO*/
+form {
+    margin-bottom: 56px;
+}
+
+/*CAMPOS DO FORM*/
+form input {
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
+
+/*BOTÃO ADICIONAR*/
+form button {
+    background-color: #009432;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer; /*CURSOR MÃOZINHA*/
+    padding: 8px;
+}
+
+/*TODA A TABELA*/
+table {
+    width: 100%;
+
+}
+
+/*TITULOS TABELA*/
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/*LINHAS TABELA*/
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/*EMOJI*/
+table td img {
+    height: 30px;
+}
+
+/*RESULTADO APRO OU REPRO*/
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px; /*borda arredondada*/
+}
+
+/*HIGHLIGHT APRO OU REPRO*/
+.aprovado {
+    background-color: #009432;
+}
+
+.reprovado {
+    background-color: red;
+}
