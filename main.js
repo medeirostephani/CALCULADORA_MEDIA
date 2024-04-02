@@ -1,7 +1,7 @@
 /*GLOBAIS*/
 let linhas = ''; /*CRIA VARIÁVEL VAZIA, PRECISA VIR ANTES DE PREVENT DEFAULT PQ SE NÃO RESETA AS LINHAS SEMPRE QUE APERTA O BOTAO, E NÃO FICA O REGISTRO DE LINHAS*/
-const imgAprovado = '<img src="./images/aprovado.png" alt="Emoji celebrando"/>';
-const imgReprovado = '<img src="./images/reprovado.png" alt="Emoji triste"/>';
+const imgAprovado = '<img src="./imagens/aprovado.png" alt="Emoji celebrando"/>';
+const imgReprovado = '<img src="./imagens/reprovado.png" alt="Emoji triste"/>';
 const atividades = [];
 const notas = [];
 const spanAprovado = '<span class="resultado aprovado">Aprovado</span>';
@@ -48,6 +48,7 @@ function adicionaLinha() { /*FUNÇÃO PARA CRIAR O PROCEDIMENTO DE ADD LINHAS*/
 }
 
 
+/*FUNÇÕES*/
 function atualizaTabela () { /*ATRIBUIR O PROCEDIMENTO CRIADO AO HTML E JOGAR AS INFORMAÇÕES PRO CORPO DA TABELA */    
     const corpoTabela = document.querySelector('tbody');
     corpoTabela.innerHTML = linhas /*INNER.HMTL ATRIBUI UM CONTEUDO DENTRO DE UMA TAG*/
